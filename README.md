@@ -54,3 +54,7 @@ HLT
 This program first sets two constants. 8, for how long you want to run the program, and 255, which is -1. 
 What then happens is, at line 9, it subtracts 1 from r2. If no carry was executed, that means that r1 was equal to 0, and that means that the program executed for 9 times, and it fails to branch. Then, the program halts.
 In the "for loop", r5 gets set to r3 + r4. r4 gets set to r3, and r3 gets set to r5. They get set by just using an ADD with zero.
+
+## Running the code
+
+To run the <code>.alice</code> code, just compile it to machine code with file extension <code>.duck</code> with the file <code>compile.py</code>. Execute the code with <code>execute.py</code>. Happy coding
